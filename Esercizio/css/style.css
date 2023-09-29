@@ -1,0 +1,198 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;&family=Open+Sans&display=swap");
+
+body {
+  font-size: 1.2rem;
+  line-height: 1.65;
+  font-family: "Open Sans", sans-serif;
+  color: #393d41;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+header {
+  display: block;
+  width: 100%;
+  background-color: black;
+}
+
+header > div {
+  width: 36%;
+  margin-inline: auto;
+  padding-block: 2rem;
+}
+
+header > div > img {
+  width: 100%;
+}
+
+main {
+  text-align: center;
+}
+
+section {
+  padding: 2rem;
+  padding-top: 4rem;
+  background-image: url(../images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+main > section > h1 {
+  width: 100%;
+  font-size: 2.18rem;
+  line-height: 1;
+}
+
+main > section > h1 > span {
+  display: block;
+}
+
+main > section > p {
+  padding-block: 1rem;
+  padding-inline: 2rem;
+}
+
+main > section > div {
+  padding-bottom: 1rem;
+  padding-top: 1.5rem;
+}
+
+main > section > div > button {
+  width: 36%;
+  padding-block: 1rem;
+  background-color: #f04c2f;
+  color: white;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+  border-style: none;
+}
+
+article > * {
+  padding-block: 0.7rem;
+}
+
+article {
+  padding-block: 3rem;
+  padding-inline: 2rem;
+}
+
+main > article > .notebook-image {
+  padding: 2rem;
+}
+
+main > article > .notebook-image > img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+main h3 {
+  font-size: larger;
+}
+
+main > .red-box {
+  background-color: #e22d0e;
+  color: white;
+  padding-inline: 1rem;
+  padding-top: 3.6rem;
+  padding-bottom: 3rem;
+  margin-bottom: 5rem;
+}
+
+main > .red-box > h2 {
+  color: white;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+main > .red-box > p {
+  font-style: italic;
+  font-weight: 100;
+  padding-bottom: 2rem;
+}
+
+main > .red-box > span {
+  font-style: oblique;
+}
+
+main > .red-box > span > span {
+  font-size: 1.56rem;
+  font-style: normal;
+  font-weight: 300;
+  padding-bottom: 1.5rem;
+}
+
+main > .content-side {
+  margin: 2rem;
+  border: 1px solid #dee1e3;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+main > .content-side > img {
+  width: 100%;
+}
+
+main > .content-side > h4 {
+  padding-block: 1rem;
+}
+
+main > .content-side > p {
+  padding-inline: 1.3rem;
+  padding-bottom: 2.3rem;
+}
+
+footer {
+  width: 100%;
+  background-color: #25a2c3;
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+  color: #c8e7f0;
+  margin-top: 5rem;
+}
+
+footer > h2 {
+  color: white;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+footer > a {
+  color: #c8e7f0;
+  display: block;
+}
+
+footer > .copyright {
+  padding-top: 2.2rem;
+  padding-inline: 0;
+  margin-block: 2rem;
+  padding-bottom: 4rem;
+  border-top: 1px solid white;
+  width: 60%;
+  margin-inline: auto;
+}
+
+footer > .copyright > a {
+  color: #c8e7f0;
+}
+
+footer > a > i {
+  color: white;
+}
+
+footer > span > i {
+  color: white;
+}
