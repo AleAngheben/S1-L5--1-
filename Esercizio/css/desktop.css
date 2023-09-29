@@ -1,0 +1,218 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;&family=Open+Sans&display=swap");
+
+body {
+  font-size: 1.2rem;
+  line-height: 1.65;
+  font-family: "Open Sans", sans-serif;
+  color: #393d41;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+header {
+  display: block;
+  width: 100%;
+  background-color: black;
+}
+
+header > div {
+  width: 15%;
+  padding-block: 2rem;
+  padding-left: 2rem;
+}
+
+header > div > img {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  text-align: center;
+}
+
+section {
+  padding: 2rem;
+  padding-top: 4rem;
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main > section > h1 {
+  width: 100%;
+  font-size: 2.18rem;
+  line-height: 1;
+  padding-top: 3rem;
+}
+
+main > section > h1 > span {
+  display: block;
+}
+
+main > section > p {
+  padding-block: 1rem;
+  padding-inline: 2rem;
+}
+
+main > section > div {
+  padding-bottom: 8rem;
+}
+
+main > section > div > button {
+  width: 12%;
+  padding-block: 1rem;
+  background-color: #f04c2f;
+  color: white;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+  border-style: none;
+}
+
+article {
+  display: block;
+  width: 50%;
+  float: right;
+  text-align: left;
+}
+
+main > article > p {
+  margin: 0;
+}
+
+main > article > h3 {
+  margin: 0;
+}
+main > article > p + h3 {
+  margin-top: 2rem;
+}
+
+main > .notebook-image {
+  width: 30%;
+  padding-left: 15rem;
+}
+
+.notebook-image,
+article {
+  margin-block: 6rem;
+}
+
+main > .notebook-image > img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+main h3 {
+  font-size: larger;
+}
+
+main > .red-box {
+  background-color: #e22d0e;
+  color: white;
+  padding-inline: 1rem;
+  padding-top: 3.6rem;
+  padding-bottom: 3rem;
+  margin-bottom: 5rem;
+}
+
+main > .red-box > h2 {
+  color: white;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+main > .red-box > p {
+  font-style: italic;
+  font-weight: 100;
+  padding-bottom: 2rem;
+}
+
+main > .red-box > span {
+  font-style: oblique;
+}
+
+main > .red-box > span > span {
+  font-size: 1.56rem;
+  font-style: normal;
+  font-weight: 300;
+  padding-bottom: 1.5rem;
+}
+
+aside {
+  display: inline-block;
+  width: 100%;
+}
+
+main > aside > .content-side {
+  display: inline-block;
+  width: 25%;
+  margin: 2rem;
+  border: 1px solid #dee1e3;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  align-items: first baseline;
+}
+
+main > aside > .content-side > img {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  background-color: #25a2c3;
+  color: white;
+  padding-top: 2rem;
+  color: #c8e7f0;
+  margin-top: 5rem;
+}
+
+footer > .footer-box {
+  width: 25%;
+  margin-inline: auto;
+}
+
+footer > .footer-box > h2 {
+  color: white;
+  font-size: 3.6rem;
+  text-align: center;
+}
+
+footer > .footer-box > a {
+  color: #c8e7f0;
+  display: block;
+}
+
+footer > .copyright {
+  padding-top: 2.2rem;
+  padding-inline: 0;
+  margin-block: 2rem;
+  padding-bottom: 4rem;
+  border-top: 1px solid white;
+  width: 25%;
+  margin-inline: auto;
+  text-align: center;
+}
+
+footer > .copyright > a {
+  color: #c8e7f0;
+}
+
+footer > .footer-box > a > i {
+  color: white;
+}
+
+footer > .footer-box > span > i {
+  color: white;
+}
